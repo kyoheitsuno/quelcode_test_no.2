@@ -1,2 +1,13 @@
 @charset "UTF-8";
 
+/* サイトのヘッダー全体ブロック */
+
+#n_school_header {width: 100%; height: 300px; background: orange;}
+
+/* ヘッダートップのナビメニュー */
+
+#n_header_top {width: 100%; height: 50px; background: #f7f7f7;}
+
+/* ヘッダートップナビメニュー左のメッセージ */
+
+.header_message {font-size: 14px; font-style: bold;}
