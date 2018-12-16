@@ -35,17 +35,16 @@
 	float: right;
 }
 
-.header_navi_top li{
-	list-style:none;
-	color: #c0c0c0;
-	display: table-cell;
-}
-
 .header_navi_top a {
 	color:#999;
 	text-decoration: none;
 }
 
+.header_navi_top li{
+	list-style:none;
+	color: #c0c0c0;
+	display: table-cell;
+}
 
 .header_navi_top li:after {
 	content: '|';
@@ -53,8 +52,26 @@
 	color: #c0c0c0;
 }
 
-.header_navi_top li:nth-of-type(n+6):after{
+.header_navi_top li:nth-of-type(n+6):after {
 	content: "";
 }
+
+.header_navi_top li:nth-of-type(7) {
+	padding-bottom: 1px;
+}
+
+.header_navi_top li:nth-of-type(7):before {
+	content: "";
+	display: inline-block;
+	padding-right: 5px;
+	width: 16px;
+	height: 20px;
+	background-image: url("./image/header_navi_icon.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	vertical-align: middle;
+}
+
+
 
 
