@@ -8,15 +8,22 @@
 	background: orange;
 }
 
+/* ヘッダートップの背景色 */
+#n_header_backcolor {
+	background:	#f7f7f7;;
+}
+
+
 /* ヘッダートップのナビメニュー */
 
 #n_header_top {
+	width: 100%;
 	max-width: 1060px;
-	/*background: #f7f7f7;*/
 	font-size: 12px;
-	background: gray;
+	height: 40px;
 	margin: 0 auto;
 	padding: 0 10px;
+	vertical-align: baseline;
 }
 
 /* ヘッダートップナビメニュー左のメッセージ */
@@ -40,10 +47,14 @@
 	text-decoration: none;
 }
 
+.header_navi_top a:hover {
+	text-decoration: underline;
+}
+
 .header_navi_top li{
-	list-style:none;
 	color: #c0c0c0;
 	display: table-cell;
+	text-align: center;
 }
 
 .header_navi_top li:after {
@@ -56,9 +67,14 @@
 	content: "";
 }
 
-.header_navi_top li:nth-of-type(7) {
-	padding-bottom: 1px;
+.header_navi_top :last-child a {
+	color: #000066;
 }
+
+.header_navi_top li:nth-of-type(7) {
+	background: rgb(217, 217, 217);
+}
+
 
 .header_navi_top li:nth-of-type(7):before {
 	content: "";
