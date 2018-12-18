@@ -100,14 +100,22 @@
 
 
 .n_school_logo {
-
+	width: 215px;
+	float: left;
 }
 
 
 .header_middle_info {
 	float: right;
+	display: inline;
+	padding-right: 40px;
+}
 
-	
+.header_middle_info li {
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: baseline;
+	clear: both;
 }
 
 
