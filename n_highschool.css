@@ -73,7 +73,7 @@
 	background: rgb(217, 217, 217);
 }
 
-
+/* 生徒用ログインのアイコン */
 .header_navi_top li:nth-of-type(7):before {
 	content: "";
 	display: inline-block;
@@ -87,7 +87,7 @@
 }
 
 
-
+/* ヘッダー中央 */
 #n_header_middle {
 	background:white;
 	max-width: 1060px;
@@ -102,11 +102,9 @@
 	float: left;
 }
 
-
 .header_middle_right {
 	float: right;
 }
-
 
 .sns_button {
 	display: table;
@@ -125,8 +123,9 @@
 	padding-right: 10px;
 }
 
-/*
-.f_button,.t_button,.y_button {
-	padding-bottom: 10px;
+.f_button:hover,.t_button:hover,.y_button:hover {
+	opacity: 0.7;
 }
+
+
 
