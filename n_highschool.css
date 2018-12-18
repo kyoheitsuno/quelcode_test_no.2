@@ -103,26 +103,30 @@
 }
 
 
-.header_middle_info {
+.header_middle_right {
 	float: right;
-	display: inline;
 }
 
-.header_middle_info li {
+
+.sns_button {
+	display: table;
+}
+
+.sns_button li {
 	text-decoration: none;
-	display: inline-block;
+	display: table-cell;
 }
 
 .nschool_tel {
-	padding-right: 15px;
+	padding-right: 10px;
 }
 
-.header_middle_info li:nth-child(n + 5) {
+.f_button,.t_button {
+	padding-right: 10px;
+}
+
+/*
+.f_button,.t_button,.y_button {
 	padding-bottom: 10px;
 }
-
-.header_middle_info li:nth-child(n + 5):hover {
-		opacity:0.5;
-}
-
 
