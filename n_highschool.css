@@ -127,5 +127,25 @@
 	opacity: 0.7;
 }
 
+/* ヘッダー下のコース紹介ナビ */
+#n_header_bottom {
+	background:white;
+	max-width: 1060px;
+	height: 70px;
+	margin: 0 auto;
+	clear: both;
+}
+
+
+.course_info {
+	display: inline-block;
+	text-align: center;
+}
+
+.info_top {
+	
+}
+
+
 
 
