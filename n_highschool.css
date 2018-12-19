@@ -91,7 +91,7 @@
 #n_header_middle {
 	background:white;
 	max-width: 1060px;
-	height: 100px;
+	height: 90px;
 	margin: 0 auto;
 	vertical-align: baseline;
 }
@@ -133,18 +133,27 @@
 	max-width: 1060px;
 	height: 70px;
 	margin: 0 auto;
-	clear: both;
 }
 
 
 .course_info {
 	display: inline-block;
 	text-align: center;
+	list-style-type: none;
 }
 
-.info_top {
-	
+.info_top_first {
+	color: #1f286f;
+	font-size: 17px;
+	font-weight: 500;
+
 }
+
+.info_bottom_first {
+	color: #1f286f;
+	font-size: 12px;
+}
+
 
 
 
