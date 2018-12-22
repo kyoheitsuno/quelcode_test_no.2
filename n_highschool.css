@@ -133,15 +133,21 @@
 	max-width: 1060px;
 	height: 70px;
 	margin: 0 auto;
-	padding-right: 60px;
 }
 
-
-.course_info {
+.course_info_nschool, .course_info_netcourse, .course_info_commutecourse, .course_info_allinceschool {
 	display: inline-block;
 	text-align: center;
 	list-style-type: none;
+	padding: 0 20px;
+	border-left :solid 1px blue;
 }
+
+.course_info_allinceschool li{
+	border-right: solid 1px blue;
+	padding-right: 20px;
+}
+
 
 .info_top_first {
 	color: #1f286f;
@@ -157,19 +163,11 @@
 	letter-spacing: 0.2em;
 }
 
-.course_info li:first-child {
-	padding-left: 15px;
-	border-left:solid 1px blue;
+.net_course:hover {
+	background-image: url("./image/Net_Course_hover.png")
 }
 
-.course_info li:after {
-	padding-right: 15px;
-	border-left:solid 1px blue;
-}
 
-.net_course image:hover {
-	background-image: ("./image/Net_Course_hover.png")
-}
 
 
 
