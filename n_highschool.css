@@ -133,6 +133,7 @@
 	max-width: 1060px;
 	height: 70px;
 	margin: 0 auto;
+	padding-right: 60px;
 }
 
 
@@ -147,6 +148,7 @@
 	font-size: 16px;
 	font-weight: 500;
 	letter-spacing: 0.2em;
+	/*background-image: url("./image/About_school.png")*/
 }
 
 .info_top {
@@ -156,13 +158,20 @@
 }
 
 .course_info li:first-child {
-	/*border-left:solid 1px #dcdddd*/
-	padding-left: 10px;
+	padding-left: 15px;
 	border-left:solid 1px blue;
 }
 
-.about_school:hover{
-	background-image: ()
+.course_info li:after {
+	padding-right: 15px;
+	border-left:solid 1px blue;
 }
+
+.net_course image:hover {
+	background-image: ("./image/Net_Course_hover.png")
+}
+
+
+
 
 
