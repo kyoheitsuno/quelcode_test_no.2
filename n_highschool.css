@@ -135,6 +135,7 @@
 	margin: 0 auto;
 }
 
+/* リンクのul CSS設定 */
 .course_info_nschool, .course_info_netcourse, .course_info_commutecourse, .course_info_allinceschool {
 	display: inline-block;
 	text-align: center;
@@ -143,18 +144,18 @@
 	border-left :solid 1px blue;
 }
 
+/* リンク最後尾のボーダー設定 */
 .course_info_allinceschool li{
 	border-right: solid 1px blue;
 	padding-right: 20px;
 }
 
-
-.info_top_first {
+/* ヘッダーナビリンクの書体設定 */
+.info_nschool {
 	color: #1f286f;
 	font-size: 16px;
 	font-weight: 500;
 	letter-spacing: 0.2em;
-	/*background-image: url("./image/About_school.png")*/
 }
 
 .info_top {
@@ -163,12 +164,18 @@
 	letter-spacing: 0.2em;
 }
 
-.net_course:hover {
-	background-image: url("./image/Net_Course_hover.png")
+/* ヘッダーナビリンクの書体設定 */
+
+
+
+
+/* ネットコースのリンク */
+.info_netcourse {
+	background-image: url("./image/Net_Course.png");
+	background-position: center;
+	width:62px;
+	height:10px;
 }
-
-
-
 
 
 
