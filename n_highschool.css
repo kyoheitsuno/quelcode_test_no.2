@@ -135,6 +135,10 @@
 	margin: 0 auto;
 }
 
+.header_bottom_nav {
+	float: left;
+}
+
 /* リンクのul CSS設定 */
 .course_info_nschool, .course_info_netcourse, .course_info_commutecourse {
 	display: inline-block;
@@ -218,6 +222,49 @@
 .allince_school:hover {
 	background-image: url("./image/Alliance_School_hover.png");
 }
+
+/* ヘッダー右の説明会・資料請求リンク */
+#introduce_link {
+	padding: 5px 0px;
+	float: right;
+	vertical-align: baseline;
+}
+
+.introduce_box {
+	position: relative;
+	top: -30px;
+}
+
+.introduce_box li {
+	width: 150px;
+	height: auto;
+	padding: 10px 5px;
+    font-weight: bold;
+	border: solid 1px #1f286f;
+	text-align: center;
+	display: inline-block;
+	font-size: 15px;
+	color: #1f286f;
+}
+
+.introduce_box li:hover{
+	background-color: #1f286f;
+	color:white;
+	transition: 0.5s;
+}
+
+.introduce_box li:after{
+	position: relative;
+	left: 15px;
+	content: '>';
+	color: #1f286f;
+}
+
+.introduce_box li:hover:after{
+	content: '>';
+	color:white;
+	transition: 0.5s;
+}	
 
 
 
