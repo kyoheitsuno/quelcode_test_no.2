@@ -140,14 +140,14 @@
 	display: inline-block;
 	text-align: center;
 	list-style-type: none;
-	padding: 0 20px;
+	padding: 0 24px;
 	border-left :solid 1px blue;
 }
 
 /* リンク最後尾のボーダー設定 */
 .course_info_allinceschool li{
 	border-right: solid 1px blue;
-	padding-right: 20px;
+	padding-right: 24px;
 }
 
 /* ヘッダーナビリンクの書体設定 */
@@ -156,19 +156,22 @@
 	font-size: 16px;
 	font-weight: 500;
 	letter-spacing: 0.2em;
+	padding-bottom: 3px;
 }
 
 .info_top {
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: 500;
 	letter-spacing: 0.2em;
+	padding-bottom: 3px;
 }
 
 /* About Schoolの画像アイコン */
 .info_nschool {
 	background-image: url("./image/About_school.png");
 	background-repeat: no-repeat;
-	width:80px;
+	background-position: center;
+	width:auto;
 	height:10px;
 }
 
@@ -176,7 +179,8 @@
 .info_netcourse {
 	background-image: url("./image/Net_Course.png");
 	background-repeat: no-repeat;
-	width:62px;
+	background-position: center;
+	width:auto;
 	height:10px;
 }
 
@@ -184,16 +188,18 @@
 .info_commutecourse {
 	background-image: url("./image/Commute_Course.png");
 	background-repeat: no-repeat;
-	width:100px;
+	background-position: center;
+	width:auto;
 	height:10px;
 }
 
 
 /* Alliance Schoolの画像アイコン */
 .allince_school {
-	background-image: url("./image/Allince School.png");
+	background-image: url("./image/Allince_School.png");
 	background-repeat: no-repeat;
-	width:100px;
+	background-position: center;
+	width:auto;
 	height:10px;
 }
 
