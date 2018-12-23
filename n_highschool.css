@@ -253,14 +253,26 @@
 	transition: 0.5s;
 }
 
-.introduce_box li:after{
+.introduce_box li a{
+	text-decoration: none;
+	color: #1f286f;
+	}
+
+.introduce_box li a:hover{
+	text-decoration: none;
+	color: white;
+	transition: 0.5s;
+	}
+
+
+.introduce_box li a:after{
 	position: relative;
 	left: 15px;
 	content: '>';
 	color: #1f286f;
 }
 
-.introduce_box li:hover:after{
+.introduce_box li a:hover:after{
 	content: '>';
 	color:white;
 	transition: 0.5s;
