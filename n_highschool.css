@@ -136,18 +136,22 @@
 }
 
 /* リンクのul CSS設定 */
-.course_info_nschool, .course_info_netcourse, .course_info_commutecourse, .course_info_allinceschool {
+.course_info_nschool, .course_info_netcourse, .course_info_commutecourse {
 	display: inline-block;
 	text-align: center;
 	list-style-type: none;
 	padding: 0 24px;
-	border-left :solid 1px blue;
+	border-left :solid 1px #dcdddd;
 }
 
 /* リンク最後尾のボーダー設定 */
-.course_info_allinceschool li{
-	border-right: solid 1px blue;
-	padding-right: 24px;
+.course_info_allinceschool {
+	display: inline-block;
+	text-align: center;
+	list-style-type: none;
+	padding: 0 24px;
+	border-left :solid 1px #dcdddd;
+	border-right :solid 1px #dcdddd
 }
 
 /* ヘッダーナビリンクの書体設定 */
@@ -189,7 +193,7 @@
 	background-image: url("./image/Commute_Course.png");
 	background-repeat: no-repeat;
 	background-position: center;
-	width:auto;
+	width:100px;
 	height:10px;
 }
 
