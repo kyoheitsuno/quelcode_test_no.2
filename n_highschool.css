@@ -151,7 +151,7 @@
 }
 
 /* ヘッダーナビリンクの書体設定 */
-.info_nschool {
+.info_top_first {
 	color: #1f286f;
 	font-size: 16px;
 	font-weight: 500;
@@ -164,19 +164,38 @@
 	letter-spacing: 0.2em;
 }
 
-/* ヘッダーナビリンクの書体設定 */
+/* About Schoolの画像アイコン */
+.info_nschool {
+	background-image: url("./image/About_school.png");
+	background-repeat: no-repeat;
+	width:80px;
+	height:10px;
+}
 
-
-
-
-/* ネットコースのリンク */
+/* Net Courseの画像アイコン */
 .info_netcourse {
 	background-image: url("./image/Net_Course.png");
-	background-position: center;
+	background-repeat: no-repeat;
 	width:62px;
 	height:10px;
 }
 
+/* Commute Courseの画像アイコン */
+.info_commutecourse {
+	background-image: url("./image/Commute_Course.png");
+	background-repeat: no-repeat;
+	width:100px;
+	height:10px;
+}
+
+
+/* Alliance Schoolの画像アイコン */
+.allince_school {
+	background-image: url("./image/Allince School.png");
+	background-repeat: no-repeat;
+	width:100px;
+	height:10px;
+}
 
 
 
