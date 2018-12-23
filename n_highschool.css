@@ -179,22 +179,30 @@
 	height:10px;
 }
 
+
+
 /* Net Courseの画像アイコン */
 .info_netcourse {
-	background-image: url("./image/Net_Course.png");
-	background-repeat: no-repeat;
+	background: url("./image/Net_Course.png") no-repeat;
 	background-position: center;
 	width:auto;
 	height:10px;
 }
 
+.info_netcourse:hover{
+	background-image: url("./image/Net_Course_hover.png");
+	}
+
 /* Commute Courseの画像アイコン */
 .info_commutecourse {
-	background-image: url("./image/Commute_Course.png");
-	background-repeat: no-repeat;
+	background: url("./image/Commute_Course.png") no-repeat;
 	background-position: center;
 	width:100px;
 	height:10px;
+}
+
+.info_commutecourse:hover{
+	background-image: url("./image/Commute_Course_hover.png");
 }
 
 
@@ -205,6 +213,10 @@
 	background-position: center;
 	width:auto;
 	height:10px;
+}
+
+.allince_school:hover {
+	background-image: url("./image/Alliance_School_hover.png");
 }
 
 
