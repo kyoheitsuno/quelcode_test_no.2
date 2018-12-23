@@ -278,5 +278,31 @@
 	transition: 0.5s;
 }	
 
+/* ヘッダー下のリストテキストリンク */
+#header_list_link {
+	width: 100%;
+	height:100px;
+	background:#181836;
+}
+
+.header_text_link {
+	max-width: 1060px;
+	margin: 0 auto;
+}
+
+.text_links {
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 14px;
+	text-align: center;
+	list-style-type: none;
+}
+
+.text_links li {
+	color: white;
+	padding-left: 20px;
+}
+
+
 
 
