@@ -291,8 +291,7 @@
 }
 
 .text_links {
-	display: flex;
-	flex-wrap: wrap;
+	display: inline-block;
 	font-size: 14px;
 	text-align: center;
 	list-style-type: none;
@@ -300,7 +299,7 @@
 
 .text_links li {
 	color: white;
-	padding-left: 20px;
+	padding: 20px 20px;
 }
 
 
