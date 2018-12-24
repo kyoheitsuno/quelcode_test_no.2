@@ -5,7 +5,6 @@
 #n_school_header {
 	width: 100%;
 	height: 300px;
-	background: orange;
 }
 
 /* ヘッダートップの背景色 */
@@ -284,6 +283,7 @@
 	width: 100%;
 	height:70px;
 	background:#181836;
+	padding: 5px 0 5px;
 }
 
 
@@ -292,23 +292,35 @@
 	text-align: center;
 	list-style-type: none;
 	max-width:1060px;
-	margin: 0 auto; 
+	margin: 0 auto;
+	letter-spacing: 0.1em;
 }
 
 .text_links li {
 	color: white;
-	padding: 10px 10px 5px 10px;
+	padding-top: 15px;
 	display: inline-block;
 }
 
-.text_links li:before{
-	content: '╲';
-	margin: 0 10px 0 5px;
+.text_links li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px;
 }
 
-.text_links li:first-chlid{
-	content: '';
+.text_links li a:hover{
+	color: #181836;
+	background-color:white;
+	transition: 0.5s
 }
+
+.text_links li:nth-child(n+2):before{
+	content: '╲';
+	margin: 0 7px 0 2px;
+}
+
+
+
 
 
 
