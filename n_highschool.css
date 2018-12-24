@@ -228,6 +228,7 @@
 	padding: 5px 0px;
 	float: right;
 	vertical-align: baseline;
+	height: 30px;
 }
 
 .introduce_box {
@@ -281,27 +282,33 @@
 /* ヘッダー下のリストテキストリンク */
 #header_list_link {
 	width: 100%;
-	height:100px;
+	height:70px;
 	background:#181836;
 }
 
-.header_text_link {
-	max-width: 1060px;
-	margin: 0 auto;
-}
 
 .text_links {
-	display: inline-block;
 	font-size: 14px;
 	text-align: center;
 	list-style-type: none;
+	max-width:1060px;
+	margin: 0 auto; 
 }
 
 .text_links li {
 	color: white;
-	padding: 20px 20px;
+	padding: 10px 10px 5px 10px;
+	display: inline-block;
 }
 
+.text_links li:before{
+	content: '╲';
+	margin: 0 10px 0 5px;
+}
+
+.text_links li:first-chlid{
+	content: '';
+}
 
 
 
