@@ -182,6 +182,17 @@
 	height:10px;
 }
 
+/* リンクの下にある三角形マーク */
+.info_nschool:after {
+	content:'';
+	height: 0;
+	position:absolute;
+	width: 0;
+	border: 7px solid transparent;
+	border-bottom-color: #181836;
+	left: 10.5%;
+	top: 176px;
+}
 
 
 /* Net Courseの画像アイコン */
@@ -286,18 +297,6 @@
 	padding: 5px 0 5px;
 }
 
-#header_list_link:after {
-	content:'';
-	height: 0;
-	position:absolute;
-	width: 0;
-	border: 7px solid transparent;
-	border-bottom-color: #181836;
-	left: 130px;
-	bottom: 91px;
-}
-
-
 .text_links {
 	font-size: 14px;
 	text-align: center;
@@ -330,8 +329,19 @@
 	margin: 0 7px 0 2px;
 }
 
+/* N高のメインコンテンツ */
+#nschool_maincolumn {
+	width: 100%;
+}
 
+.about_school {
 
+}
+
+#n_highschool {
+	background: url("./image/nschool_image.png") no-repeat;
+	background-size: auto auto;
+}
 
 
 
