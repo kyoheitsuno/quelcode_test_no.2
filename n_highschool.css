@@ -351,15 +351,16 @@
 .nschool_title {
 	color: white;
 	font-size: 55px;
-	font-weight: 200;
+	font-weight: 300;
 	letter-spacing: 0.2em;
+	font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
 }
 
 .nschool_title:before {
 	content: '';
 	position: absolute;
 	left: 470px;
-	bottom: -20px;
+	bottom: -10px;
 	display: inline-block;
 	width: 200px;
 	height: 1px;
@@ -368,9 +369,13 @@
 }
 
 .h1_aboutschool {
-
-
-
+	text-align: center;
+	color: white;
+	font-size: 16px;
+	letter-spacing: 0.2em;
+	position: relative;
+	top:85px;
+	font-family: 'PT Sans Narrow',sans-serif;
 }
 
 
