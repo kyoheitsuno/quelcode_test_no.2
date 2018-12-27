@@ -4,7 +4,7 @@
 
 #n_school_header {
 	width: 100%;
-	height: 262px;
+	height: 250px;
 }
 
 /* ヘッダートップの背景色 */
@@ -329,26 +329,48 @@
 	margin: 0 7px 0 2px;
 }
 
-/* N高のメインコンテンツ */
+/* N高のメインコンテンツブロック */
 #nschool_maincolumn {
 	width: 100%;
 }
 
+/* N高のイメージ背景画像 */
 .about_school {
 	width: 100%;
 	height: 550px;
 	background: url("./image/nschool_image.png") no-repeat;
 }
 
+/*  */
 #n_highschool {
-	color: white;
-	font-size: 60px;
-	font-weight: 300px;
 	text-align: center;
 	position: relative;
 	top:70px;
 }
 
+.nschool_title {
+	color: white;
+	font-size: 55px;
+	font-weight: 200;
+	letter-spacing: 0.2em;
+}
 
+.nschool_title:before {
+	content: '';
+	position: absolute;
+	left: 470px;
+	bottom: -20px;
+	display: inline-block;
+	width: 200px;
+	height: 1px;
+	background-color: white;
+	border-radius: 2px;
+}
+
+.h1_aboutschool {
+
+
+
+}
 
 
