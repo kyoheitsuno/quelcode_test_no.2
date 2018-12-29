@@ -38,6 +38,8 @@
 .header_navi_top {
 	display: table;
 	float: right;
+	position: relative;
+	top: -12px;
 }
 
 .header_navi_top a {
@@ -54,24 +56,41 @@
 	text-align: center;
 }
 
+/* リスト間を|で調整 */
 .header_navi_top li:after {
 	content: '|';
 	padding: 0px 15px 0px 15px;
 	color: #676767;
 }
 
+/* 後ろのリストで|を打ち消し */
 .header_navi_top li:nth-of-type(n+6):after {
 	content: "";
 }
 
+/* 生徒用ログインのリスト調整 */
 .header_navi_top :last-child a {
 	color: #000066;
+	background: rgb(217, 217, 217);
+	padding: 8px;
 }
 
+/* 生徒用ログインのアイコン */
+.login_icon :before {
+	content: url("./image/header_navi_icon.png");
+	display: inline-block;
+	transform: scale(0.5);
+	vertical-align: middle;
+	background: rgb(217, 217, 217);
+	padding: 0 0 0 0;
+}
+
+/*
 .header_navi_top li:nth-of-type(7) a {
 	background: rgb(217, 217, 217);
 	padding: 0 -10px -10px 0;
 }
+*/
 
 
 /* 生徒用ログインのアイコン */
@@ -85,15 +104,10 @@
 }
 */
 
-/* 生徒用ログインのアイコンリスト */
 
-#login_icon {
-	content: url("./image/header_navi_icon.png");
-	display: inline-block;
-	transform: scale(0.5);
-	vertical-align: middle;
-	background: rgb(217, 217, 217);
-}
+
+
+
 
 /*
 .header_navi_top li:nth-of-type(7):before {
