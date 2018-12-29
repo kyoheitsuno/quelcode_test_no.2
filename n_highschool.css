@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+/* clearfix */
+.clearfix:after {
+    content : "";
+    display : block;
+    clear : both;
+}
+
 /* サイトのヘッダー全体ブロック */
 
 #n_school_header {
@@ -42,6 +49,12 @@
 	top: -12px;
 }
 
+.header_navi_top:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
 .header_navi_top a {
 	color:#676767;
 	text-decoration: none;
@@ -72,7 +85,7 @@
 .header_navi_top :last-child a {
 	color: #000066;
 	background: rgb(217, 217, 217);
-	padding: 8px;
+	padding: 8px 8px 8px 0;
 }
 
 /* 生徒用ログインのアイコン */
@@ -84,6 +97,7 @@
 	background: rgb(217, 217, 217);
 	padding: 0 0 0 0;
 }
+
 
 /*
 .header_navi_top li:nth-of-type(7) a {
