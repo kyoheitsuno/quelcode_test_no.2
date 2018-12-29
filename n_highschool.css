@@ -537,13 +537,13 @@ h2#subjective_action:before {
 
 h2#education {
 	border-bottom: solid 1px black;
-	line-height: 2;
+	line-height: 2.5;
 }
 
 h2#education:after {
 	content: '';
 	position: relative;
-	top: 14px;
+	top: 20px;
 	right: 103px;
 	display: inline-block;
 	width: 300px;
