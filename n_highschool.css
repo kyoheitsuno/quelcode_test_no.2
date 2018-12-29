@@ -158,6 +158,9 @@
 
 .header_middle_right {
 	float: right;
+	position: relative;
+	top: -20px;
+	right: 30px;
 }
 
 .sns_button {
@@ -293,12 +296,13 @@
 	padding: 5px 0px;
 	float: right;
 	vertical-align: baseline;
-	height: 30px;
+	height: 15px;
 }
 
 .introduce_box {
 	position: relative;
-	top: -30px;
+	top: -53px;
+	right: 40px;
 }
 
 .introduce_box li {
