@@ -552,7 +552,40 @@ h2#education:after {
 	border-radius: 2px;
 }
 
+/*教養・思考力・実践力*/
+.three_power {
+	max-width: 1060px;
+	margin: 0 auto;
+	height: 300px;
+	background-color: green;
+}
 
+.three_item {
+	display: table;
+	padding-left: 0;
+}
+
+
+.three_item li{
+	list-style-type: none;
+	font-weight: 500;
+	font-size: 18px;
+	padding: 10px 0px 25px 0px;
+}
+
+
+.list_three {
+	list-style-type: none;
+	font-weight: 600;
+	font-size: 24px;
+	text-align: center;
+	border-right: solid 1px black;
+	padding: 10px 20px 10px 0px;
+}
+
+.three_list {
+	padding-right: 10px;
+}
 
 
 
