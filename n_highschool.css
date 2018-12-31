@@ -531,7 +531,6 @@ h2#subjective_action:before {
 	margin: 0 auto;
 	font-style: normal;
 	height: 300px;
-	background-color: red;
 }
 
 h2#education {
@@ -556,7 +555,6 @@ h2#education:after {
 	max-width: 1060px;
 	margin: 0 auto;
 	height: 300px;
-	background-color: green;
 }
 
 .three_item {
@@ -598,19 +596,27 @@ h2#education:after {
 	max-width: 690px;
 	height: 310px;
 	background-color: #f7f7f7;
-	clear: both;
-	margin: 80px auto;
+	margin: 70px auto;
+	border: solid 1px #ddd;
 }
 
 /*ロゴの画像*/
 .nstandard_logo {
 	padding: 10px 20px 30px 30px;
 	float: left;
-
 }
+
 
 a.nstandard_a {
 	text-decoration: none;
+}
+
+a.nstandard_a:hover {
+	opacity: 0.6;
+}
+
+a.nstandard_a:hover:not() {
+	opacity: 0.6;
 }
 
 h2#nstandard_info {
@@ -625,6 +631,7 @@ h2#nstandard_info {
 	letter-spacing: 0.1em;
 	line-height: 1.8;
 	font-size: 14px;
+	word-wrap: break-word;
 	color: black;
 }
 
