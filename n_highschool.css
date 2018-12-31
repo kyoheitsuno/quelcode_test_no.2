@@ -598,7 +598,13 @@ h2#education:after {
 	background-color: #f7f7f7;
 	margin: 70px auto;
 	border: solid 1px #ddd;
+	opacity: 1;
 }
+
+.nstandard_link:hover :not(.nstandard_info) :not(.nstandard_text) {
+	opacity: 0.6;
+}
+
 
 /*ロゴの画像*/
 .nstandard_logo {
@@ -611,15 +617,7 @@ a.nstandard_a {
 	text-decoration: none;
 }
 
-a.nstandard_a:hover {
-	opacity: 0.6;
-}
-
-a.nstandard_a:hover:not() {
-	opacity: 0.6;
-}
-
-h2#nstandard_info {
+.nstandard_info {
 	text-decoration: none;
 	color: black;
 	font-size: 18px;
