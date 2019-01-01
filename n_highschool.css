@@ -98,49 +98,6 @@
 	padding: 0 0 0 0;
 }
 
-
-/*
-.header_navi_top li:nth-of-type(7) a {
-	background: rgb(217, 217, 217);
-	padding: 0 -10px -10px 0;
-}
-*/
-
-
-/* 生徒用ログインのアイコン */
-/*
-.header_navi_top li:nth-of-type(7):before {
-	content: url("./image/header_navi_icon.png");
-	display: inline-block;
-	transform: scale(0.5);
-	vertical-align: middle;
-	background: rgb(217, 217, 217);
-}
-*/
-
-
-
-
-
-
-/*
-.header_navi_top li:nth-of-type(7):before {
-	content: "";
-	display: inline-block;
-	padding-right: 5px;
-	width: 16px;
-	height: 20px;
-	background-image: url("./image/header_navi_icon.png");
-	background-repeat: no-repeat;
-	background-size: contain;
-	vertical-align: middle;
-}
-
-.header_navi_top li:nth-of-type(7) a:before
-
-*/
-
-
 /* ヘッダー中央 */
 #n_header_middle {
 	background:white;
@@ -530,15 +487,15 @@ h2#subjective_action:before {
 	max-width: 1060px;
 	margin: 0 auto;
 	font-style: normal;
-	height: 300px;
+	height: 830px;
 }
 
-h2#education {
+.heading {
 	border-bottom: solid 1px black;
 	line-height: 2.5;
 }
 
-h2#education:after {
+.heading:after {
 	content: '';
 	position: relative;
 	top: 20px;
@@ -617,6 +574,7 @@ a.nstandard_a {
 	text-decoration: none;
 }
 
+/*h2タイトルと文章*/
 .nstandard_info {
 	text-decoration: none;
 	color: black;
@@ -646,5 +604,15 @@ a.nstandard_a {
 	vertical-align: super;
 	font-weight: 600;
 }
+
+/*N高の魅力*/
+#nschool_attraction {
+	max-width: 1060px;
+	margin: 0 auto;
+	font-style: normal;
+	height: 300px;
+}
+
+
 
 
