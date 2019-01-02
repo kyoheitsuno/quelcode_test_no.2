@@ -610,10 +610,10 @@ a.nstandard_a {
 	max-width: 1060px;
 	margin: 0 auto;
 	font-style: normal;
-	height: 600px;
+	height: 700px;
 }
 
-/*左側のブロック範囲*/
+/*N高の魅力 左側のブロック範囲*/
 .n_many_time {
 	width: 500px;
 	height: 300px; 
@@ -623,7 +623,8 @@ a.nstandard_a {
 	font-size: 26px;
 	font-weight: 400;
 	line-height: 1.6;
-	padding-top: 30px;
+	padding-top: 70px;
+	display: block;
 }
 
 .many_time:after {
@@ -635,11 +636,31 @@ a.nstandard_a {
 	border-radius: 2px;
 }
 
+.supplement {
+	font-size: 13px;
+	line-height: 1.5;
+}
+
 /*◎◎◎ (重複利用)説明文章のテンプレート ◎◎◎*/
 .p_standard {
 	width: 500px;
 	font-size: 17px;
 	line-height: 1.7;
 }
+
+/*N高生の1日画像*/
+.n_schedule {
+	float: right;
+	position: relative;
+	top: -225px;
+}
+
+/*advanced_program*/
+#advanced_program {
+	max-width: 1060px;
+	margin: 0 auto;
+	height: 300px;
+}
+
 
 
