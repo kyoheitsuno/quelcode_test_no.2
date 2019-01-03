@@ -442,7 +442,7 @@ h2.subjective_action {
 	padding-top: 130px;
 }
 
-h2#subjective_action:before {
+h2.subjective_action:before {
 	content: '';
 	position: absolute;
 	left: 0px;
@@ -664,7 +664,7 @@ a.nstandard_a {
 
 /*メイン下 フッター上の一覧ブロック*/
 #n_school_infolist {
-	max-width: 1060px;
+	width: 100%;
 	margin: 0 auto;
 	height: 3000px;
 	border-bottom: solid 1px #e2e2e2;
@@ -672,16 +672,18 @@ a.nstandard_a {
 
 /*高卒資格取得のためのBasic Program*/
 .basicprogram_info {
-	max-width: 1060px;
+	width: 100%;
 	margin: 0 auto;
 	height: 800px;
-	background: #f7f7f7: 
+	background-color: #f7f7f7; 
 }
 
 
 h2.standard_heading {
 	text-align: center;
 	padding-top: 130px;
+	font-size: 32px;
+	font-weight: 400;
 }
 
 h2.standard_heading:before {
@@ -689,7 +691,7 @@ h2.standard_heading:before {
 	position: absolute;
 	left: 0px;
 	right: 0px;
-	top: 1290px;
+	top: 3940px;
 	margin: auto;
 	display: inline-block;
 	width: 200px;
