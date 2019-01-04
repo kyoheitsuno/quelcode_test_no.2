@@ -724,4 +724,16 @@ h2.standard_heading:before {
 
 }
 
+/*Basic Programの黒ブロック*/
+.bp_block {
+    display: inline-block;
+    padding: 8px 7px;
+    background-color: black;
+    text-decoration: none;
+	font-size: 11px;
+	color: white;
+	font-weight: 300;
+}
+
+
 
