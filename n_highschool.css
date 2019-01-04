@@ -675,14 +675,14 @@ a.nstandard_a {
 .basicprogram_info {
 	width: 100%;
 	margin: 0 auto;
-	height: 1500px;
+	height: 1530px;
 	background-color: #f7f7f7; 
 }
 
 /*◎◎◎ （重複）Adbanced,BasicのH2トップ見出し ◎◎◎*/
 h2.standard_heading {
 	text-align: center;
-	padding-top: 130px;
+	padding-top: 90px;
 	font-size: 32px;
 	font-weight: 400;
 }
@@ -693,7 +693,7 @@ h2.standard_heading:before {
 	position: absolute;
 	left: 0px;
 	right: 0px;
-	top: 3940px;
+	top: 3900px;
 	margin: auto;
 	display: inline-block;
 	width: 200px;
@@ -714,23 +714,37 @@ h2.standard_heading:before {
 .AP_block {
 	max-width: 1060px;
 	margin: 0 auto;
-	height: 600px;
+	height: 1000px;
 }
 
 /*◎◎◎ （重複）画像左のブロック ◎◎◎*/
 .image_left {
 	float: left;
+	padding-bottom: 100px;
 }
 
-/*◎◎◎ （重複）テキスト右のブロック ◎◎◎*/
-.info_right {
+.image_right {
+	float: right;
+	padding-bottom: 100px;
+}
+
+/*◎◎◎ （重複）テキストのブロック ◎◎◎*/
+.info_block_right {
 	width: 285px;
-	height: 460px;
-	margin: 0 auto;
+	height: 510px;
+	float: right;
 	overflow: hidden;
+	padding-bottom: 100px;
 }
 
-.info_right:hover {
+.info_block_left {
+	width: 285px;
+	height: 510px;
+	float: left;
+}
+
+
+.info_block:hover {
 	opacity: 0.6;
 }
 
