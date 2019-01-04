@@ -638,7 +638,8 @@ a.nstandard_a {
 
 .supplement {
 	font-size: 13px;
-	line-height: 1.5;
+	line-height: 1.7;
+	color: black;
 }
 
 /*◎◎◎ (重複利用)説明文章のテンプレート ◎◎◎*/
@@ -729,6 +730,10 @@ h2.standard_heading:before {
 	overflow: hidden;
 }
 
+.info_right:hover {
+	opacity: 0.6;
+}
+
 /*◎◎◎ （重複）Basic Programの黒ブロック ◎◎◎*/
 .bp_block {
     display: inline-block;
@@ -745,12 +750,15 @@ h2.bp_heading {
 	font-size: 18px;
 	line-height: 1.6;
 	font-weight: 500;
+	color: black;
 }
 
 .p_adblock {
 	font-size: 16px;
 	line-height: 1.7;
+	color: black;
 }
+
 
 
 
