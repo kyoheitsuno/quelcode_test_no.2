@@ -644,7 +644,7 @@ a.nstandard_a {
 /*◎◎◎ (重複利用)説明文章のテンプレート ◎◎◎*/
 .p_standard {
 	width: 500px;
-	font-size: 17px;
+	font-size: 16px;
 	line-height: 1.7;
 }
 
@@ -699,3 +699,13 @@ h2.standard_heading:before {
 	background-color: black;
 	border-radius: 2px;
 }
+
+/*中央寄せの説明テキスト*/
+.p_standard_center {
+	font-size: 16px;
+	line-height: 1.7;
+	text-align: center;
+	padding: 30px 0;
+}
+
+
