@@ -675,8 +675,10 @@ a.nstandard_a {
 .basicprogram_info {
 	width: 100%;
 	margin: 0 auto;
-	height: 1530px;
-	background-color: #f7f7f7; 
+	height: 1500px;
+	background-color: #f7f7f7;
+	border-top: solid 1px #e2e2e2;
+	border-bottom: solid 1px #e2e2e2;
 }
 
 /*◎◎◎ （重複）Adbanced,BasicのH2トップ見出し ◎◎◎*/
@@ -744,7 +746,7 @@ h2.standard_heading:before {
 }
 
 
-.info_block:hover {
+.info_block_right:hover,.info_block_left:hover {
 	opacity: 0.6;
 }
 
