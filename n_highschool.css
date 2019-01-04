@@ -678,13 +678,14 @@ a.nstandard_a {
 	background-color: #f7f7f7; 
 }
 
-
+/*◎◎◎ （重複）Adbanced,BasicのH2トップ見出し ◎◎◎*/
 h2.standard_heading {
 	text-align: center;
 	padding-top: 130px;
 	font-size: 32px;
 	font-weight: 400;
 }
+
 
 h2.standard_heading:before {
 	content: '';
@@ -700,7 +701,7 @@ h2.standard_heading:before {
 	border-radius: 2px;
 }
 
-/*中央寄せの説明テキスト*/
+/*◎◎◎ （重複）中央寄せの説明テキスト ◎◎◎*/
 .p_standard_center {
 	font-size: 15px;
 	line-height: 1.7;
@@ -708,23 +709,27 @@ h2.standard_heading:before {
 	padding: 30px 0;
 }
 
-/*basic Programの画像付き説明ブロック*/
+/*◎◎◎ （重複）basic Programの画像付き説明ブロック ◎◎◎*/
 .AP_block {
 	max-width: 1060px;
 	margin: 0 auto;
 	height: 600px;
 }
 
-/*画像左のブロック*/
+/*◎◎◎ （重複）画像左のブロック ◎◎◎*/
 .image_left {
 	float: left;
 }
 
+/*◎◎◎ （重複）テキスト右のブロック ◎◎◎*/
 .info_right {
-
+	width: 285px;
+	height: 460px;
+	margin: 0 auto;
+	overflow: hidden;
 }
 
-/*Basic Programの黒ブロック*/
+/*◎◎◎ （重複）Basic Programの黒ブロック ◎◎◎*/
 .bp_block {
     display: inline-block;
     padding: 8px 7px;
@@ -733,6 +738,18 @@ h2.standard_heading:before {
 	font-size: 11px;
 	color: white;
 	font-weight: 300;
+}
+
+/*◎◎◎ Basic Programの見出し ◎◎◎*/
+h2.bp_heading {
+	font-size: 18px;
+	line-height: 1.6;
+	font-weight: 500;
+}
+
+.p_adblock {
+	font-size: 16px;
+	line-height: 1.7;
 }
 
 
