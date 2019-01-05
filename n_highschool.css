@@ -755,8 +755,8 @@ h2.basicprogram_heading:before {
 	opacity: 0.6;
 }
 
-/*◎◎◎ （重複）Basic Programの黒ブロック ◎◎◎*/
-.bp_block {
+/*◎◎◎ （重複）Basic&Advanced Programの黒ブロック ◎◎◎*/
+.ab_block {
     display: inline-block;
     padding: 8px 7px;
     background-color: black;
@@ -768,7 +768,7 @@ h2.basicprogram_heading:before {
 
 /*◎◎◎ Basic Programの見出し ◎◎◎*/
 h2.bp_heading {
-	font-size: 18px;
+	font-size: 22px;
 	line-height: 1.6;
 	font-weight: 500;
 	color: black;
