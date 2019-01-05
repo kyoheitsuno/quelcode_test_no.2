@@ -442,6 +442,8 @@ h2.subjective_action {
 	padding-top: 130px;
 }
 
+
+/*
 h2.subjective_action:before {
 	content: '';
 	position: absolute;
@@ -455,6 +457,8 @@ h2.subjective_action:before {
 	background-color: black;
 	border-radius: 2px;
 }
+*/
+
 
 /*メインコラム トップのH2メッセージ*/
 .creativity {
@@ -807,6 +811,30 @@ h2.bp_heading {
 	height: 1px;
 	background-color: black;
 	border-radius: 2px;
+}
+
+/*グレーブロック1項目バージョン*/
+.basicprogram_info_half {
+	width: 100%;
+	margin: 0 auto;
+	height: 800px;
+	background-color: #f7f7f7;
+	border-top: solid 1px #e2e2e2;
+	border-bottom: solid 1px #e2e2e2;
+}
+
+/*◎◎◎ （重複）h2タイトル下の下線 ◎◎◎*/
+.h2_border_bottom {
+	width: 200px;
+	border-top: solid 1px black;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+/*ブロック1項目の範囲指定*/
+.one_block {
+	max-width: 1060px;
+	margin: 0 auto;
+	height: 800px;
 }
 
 
