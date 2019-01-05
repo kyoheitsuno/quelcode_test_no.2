@@ -212,7 +212,7 @@
 
 /* Net Courseの画像アイコン */
 .info_netcourse {
-	background: url("./image/Net_Course.png") no-repeat;
+	background: url("./image/netcourse.png") no-repeat;
 	background-position: center;
 	width:auto;
 	height:10px;
@@ -686,9 +686,6 @@ a.nstandard_a {
 	border-bottom: solid 1px #e2e2e2;
 }
 
-
-
-
 /*◎◎◎ （重複）Adbanced,BasicのH2トップ見出し ◎◎◎*/
 h2.basicprogram_heading {
 	text-align: center;
@@ -842,5 +839,28 @@ h2.bp_heading {
 	width: 100%;
 	margin: 0 auto;
 	height: 800px;
+}
+
+/*グレーブロックショートバージョン*/
+#block_gray_half {
+	width: 100%;
+	margin: 0 auto;
+	height: 400px;
+	background-color: #f7f7f7;
+	border-top: solid 1px #e2e2e2;
+	border-bottom: solid 1px #e2e2e2;
+}
+
+#fourblock_link {
+	max-width: 1060px;
+	margin: 0 auto;
+}
+
+/*四方リンクの設定*/
+.four_link {
+	width: 490px;
+	height: 145px;
+	background-color: white;
+	text-decoration: none;
 }
 
