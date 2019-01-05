@@ -8,7 +8,6 @@
 }
 
 /* サイトのヘッダー全体ブロック */
-
 #n_school_header {
 	width: 100%;
 	height: 250px;
@@ -19,9 +18,7 @@
 	background:	#f7f7f7;;
 }
 
-
 /* ヘッダートップのナビメニュー */
-
 #n_header_top {
 	width: 100%;
 	max-width: 1060px;
@@ -33,7 +30,6 @@
 }
 
 /* ヘッダートップナビメニュー左のメッセージ */
-
 .header_message {
 	font-weight:700;
 	display: table;
@@ -41,7 +37,6 @@
 }
 
 /* ヘッダートップナビメニューのリンク一覧 */
-
 .header_navi_top {
 	display: table;
 	float: right;
@@ -106,7 +101,6 @@
 	margin: 0 auto;
 	vertical-align: baseline;
 }
-
 
 .n_school_logo {
 	width: 215px;
@@ -209,7 +203,6 @@
 	top: 176px;
 }
 
-
 /* Net Courseの画像アイコン */
 .info_netcourse {
 	background: url("./image/netcourse.png") no-repeat;
@@ -220,7 +213,7 @@
 
 .info_netcourse:hover{
 	background-image: url("./image/Net_Course_hover.png");
-	}
+}
 
 /* Commute Courseの画像アイコン */
 .info_commutecourse {
@@ -233,7 +226,6 @@
 .info_commutecourse:hover{
 	background-image: url("./image/Commute_Course_hover.png");
 }
-
 
 /* Alliance Schoolの画像アイコン */
 .allince_school {
@@ -290,7 +282,6 @@
 	color: white;
 	transition: 0.5s;
 	}
-
 
 .introduce_box li a:after{
 	position: relative;
@@ -442,7 +433,6 @@ h2.subjective_action {
 	padding-top: 130px;
 }
 
-
 /*
 h2.subjective_action:before {
 	content: '';
@@ -458,7 +448,6 @@ h2.subjective_action:before {
 	border-radius: 2px;
 }
 */
-
 
 /*メインコラム トップのH2メッセージ*/
 .creativity {
@@ -523,7 +512,6 @@ h2.subjective_action:before {
 	padding-left: 0;
 }
 
-
 .three_item li{
 	list-style-type: none;
 	font-weight: 500;
@@ -566,13 +554,11 @@ h2.subjective_action:before {
 	opacity: 0.6;
 }
 
-
 /*ロゴの画像*/
 .nstandard_logo {
 	padding: 10px 20px 30px 30px;
 	float: left;
 }
-
 
 a.nstandard_a {
 	text-decoration: none;
@@ -708,7 +694,6 @@ h2.basicprogram_heading:before {
 	border-radius: 2px;
 }
 
-
 /*◎◎◎ （重複）中央寄せの説明テキスト ◎◎◎*/
 .p_standard_center {
 	font-size: 15px;
@@ -749,7 +734,6 @@ h2.basicprogram_heading:before {
 	height: 510px;
 	float: left;
 }
-
 
 .info_block_right:hover,.info_block_left:hover {
 	opacity: 0.6;
@@ -845,7 +829,7 @@ h2.bp_heading {
 #block_gray_half {
 	width: 100%;
 	margin: 0 auto;
-	height: 400px;
+	height: 450px;
 	background-color: #f7f7f7;
 	border-top: solid 1px #e2e2e2;
 	border-bottom: solid 1px #e2e2e2;
@@ -861,6 +845,14 @@ h2.bp_heading {
 	width: 490px;
 	height: 145px;
 	background-color: white;
-	text-decoration: none;
+	border: 1px solid black;
+	list-style-type: none;
+	display: inline-block;
 }
+
+.four_link li {
+	font-size: 18px;
+	vertical-align: middle;
+}
+
 
