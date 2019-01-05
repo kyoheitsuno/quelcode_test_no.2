@@ -814,7 +814,7 @@ h2.bp_heading {
 }
 
 /*グレーブロック1項目バージョン*/
-.basicprogram_info_half {
+.block_gray {
 	width: 100%;
 	margin: 0 auto;
 	height: 800px;
@@ -837,4 +837,10 @@ h2.bp_heading {
 	height: 800px;
 }
 
+/*白ブロック1項目バージョン*/
+.block_white {
+	width: 100%;
+	margin: 0 auto;
+	height: 800px;
+}
 
