@@ -668,11 +668,10 @@ a.nstandard_a {
 #n_school_infolist {
 	width: 100%;
 	margin: 0 auto;
-	height: 3000px;
-	border-bottom: solid 1px #e2e2e2;
+	height: 6000px;
 }
 
-/*ここからグレーブロックスタート*/
+/*ここからグレーのブロックスタート*/
 /*高卒資格取得のためのBasic Program*/
 .basicprogram_info {
 	width: 100%;
