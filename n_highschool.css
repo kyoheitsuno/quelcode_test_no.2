@@ -838,7 +838,7 @@ h2.bp_heading {
 #fourblock_link {
 	max-width: 1060px;
 	margin: 0 auto;
-
+	height: 450px;
 }
 
 /*四方リンクの設定*/
@@ -849,10 +849,17 @@ h2.bp_heading {
 	border: 1px solid black;
 	list-style-type: none;
 	padding-left: 0px;
-
+	display: table;
 }
 
-/**/
+.four_link::after {
+    content: ">";
+    position: relative;
+    top: 60px;
+    right: 20px;
+}
+
+/*リスト全体のCSS*/
 .four_link_a {
 	text-decoration: none;
 	color: #272727;
@@ -861,18 +868,29 @@ h2.bp_heading {
 	padding-top: 40px;
 }
 
-.four_link li {
-	vertical-align: middle;
-	padding: 30px;
+.four_link_a:hover {
+	opacity: 0.7;
 }
+
+
+.four_link li {
+	padding: 20px 20px;
+	display: table-cell;
+	vertical-align: middle;
+	line-height: 1.5;
+}
+
+
 
 /*四方リンクリスト上の書式*/
 .fourblock_link_list_top {
-	font-size: 26px;
+	font-size: 24px;
+	letter-spacing: 1px;
 }
 
 .fourblock_link_list_bottom {
 	font-size: 14px;
+	letter-spacing: 1px;
 }
 
 
