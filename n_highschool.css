@@ -884,7 +884,6 @@ h2.bp_heading {
 	width: 450px;
 	height: 125px;
 	background-color: white;
-	border: 1px solid black;
 	list-style-type: none;
 	padding-left: 0px;
 	display: table;
@@ -902,6 +901,8 @@ h2.bp_heading {
 	display: table-cell;
 	vertical-align: middle;
 	line-height: 1.5;
+	border: 6px solid black;
+	border-image: url("./image/stripe.png") 7 7 repeat;
 }
 
 /*四方リンクリスト上の書式*/
