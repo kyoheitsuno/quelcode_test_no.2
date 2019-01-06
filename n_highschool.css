@@ -839,6 +839,8 @@ h2.bp_heading {
 	max-width: 1060px;
 	margin: 0 auto;
 	height: 450px;
+	display: flex;
+	justify-content: space-between;
 }
 
 /*四方リンクの設定*/
@@ -863,8 +865,6 @@ h2.bp_heading {
 .four_link_a {
 	text-decoration: none;
 	color: #272727;
-	display: flex;
-	justify-content: space-between;
 	padding-top: 40px;
 }
 
@@ -879,8 +879,6 @@ h2.bp_heading {
 	vertical-align: middle;
 	line-height: 1.5;
 }
-
-
 
 /*四方リンクリスト上の書式*/
 .fourblock_link_list_top {
