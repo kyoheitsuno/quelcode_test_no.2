@@ -829,7 +829,7 @@ h2.bp_heading {
 #block_gray_half {
 	width: 100%;
 	margin: 0 auto;
-	height: 450px;
+	height: 500px;
 	background-color: #f7f7f7;
 	border-top: solid 1px #e2e2e2;
 	border-bottom: solid 1px #e2e2e2;
@@ -844,7 +844,7 @@ h2.bp_heading {
 	flex-wrap: wrap;
 }
 
-/*四方リンクの設定*/
+/*四方リンク上段の設定*/
 .four_link {
 	width: 450px;
 	height: 145px;
@@ -853,6 +853,8 @@ h2.bp_heading {
 	list-style-type: none;
 	padding-left: 0px;
 	display: table;
+	border: 6px solid black;
+	border-image: url("./image/stripe.png") 7 7 repeat;
 }
 
 .four_link::after {
@@ -887,6 +889,8 @@ h2.bp_heading {
 	list-style-type: none;
 	padding-left: 0px;
 	display: table;
+	border: 6px solid black;
+	border-image: url("./image/stripe.png") 7 7 repeat;
 }
 
 .four_link_bottom::after {
@@ -901,8 +905,7 @@ h2.bp_heading {
 	display: table-cell;
 	vertical-align: middle;
 	line-height: 1.5;
-	border: 6px solid black;
-	border-image: url("./image/stripe.png") 7 7 repeat;
+
 }
 
 /*四方リンクリスト上の書式*/
