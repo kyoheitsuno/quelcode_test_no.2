@@ -918,6 +918,21 @@ h2.bp_heading {
 	font-size: 13px;
 }
 
+.youtube_info {
+	padding: 50px 2px 0 2px;
+	display: table-cell;
+	text-align: center;
+	vertical-align: top;
+	font-size: 14px;
+}
+
+.youtube_title {
+	position: relative;
+	top: -10px;
+	text-align: center;
+	font-size: 14px;
+	color: #272727;
+}
 
 
 
