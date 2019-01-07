@@ -934,7 +934,25 @@ h2.bp_heading {
 	color: #272727;
 }
 
+/*白ブロック半分バージョン*/
+.block_white_y {
+	width: 100%;
+	margin: 0 auto;
+	height: 400px;
+}
 
+/*フッターエリア*/
+#footer_block {
+	width: 100%;
+	margin: 0 auto;
+	height: 800px;
+}
 
+#contact {
+	width: 100%;
+	margin: 0 auto;
+	height: 250px;
+	background-image: url("./image/footer02_bg01.png");
+}
 
 
