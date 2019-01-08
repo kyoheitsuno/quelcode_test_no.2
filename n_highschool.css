@@ -951,7 +951,7 @@ h2.bp_heading {
 #contact {
 	width: 100%;
 	margin: 0 auto;
-	height: 250px;
+	height: 300px;
 	background-image: url("./image/footer02_bg01.png");
 }
 
@@ -964,6 +964,43 @@ h2.bp_heading {
 	letter-spacing: 0.1em;
 }
 
+.contact_links {
+	width: 500px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.contact_links_left {
+	display: block;
+	padding: 10px 10px;
+	list-style-type: none;
+	width: 260px;
+	height: 130px;
+}
+
+.contact_links_left li {
+	padding: 10px 0;
+}
+
+.contact_links_right {
+	display: block;
+	padding: 10px 10px;
+	list-style-type: none;
+	width: 260px;
+	height: 130px;
+}
+
+.contact_links_right li {
+	padding: 10px 0;
+}
+
+.contact_link_a {
+	padding-top: 10px;
+}
+
+.contact_link_a:hover {
+	opacity: 0.7;
+}
 
 
 
