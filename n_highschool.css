@@ -1018,5 +1018,42 @@ h2.bp_heading {
 	padding-left: 15px;
 }
 
+/*フッターのグローバルナビ*/
+.footer_navi {
+	width: 1060px;
+	margin: auto;
+	padding: 40px 10px 10px 0px;
+	display: flex;
+	flex-wrap: wrap;
+}
 
+.footer_navi li{
+	display: inline;
+	list-style:none;
+	font-size: 12px;
+	font-weight: bold;
+	color: #c0c0c0;
+	padding: 20px 15px 20px 5px;
+	white-space: nowrap;
+}
+
+.footer_navi a {
+	color: #000066;
+	text-decoration: none;
+}
+
+.footer_navi a:hover {
+	text-decoration: underline;
+}
+
+.footer_navi li:after {
+	content: '|';
+	font-size: 12px;
+	padding: 0 5px 0 10px;
+	color: black;
+}
+
+.footer_navi li:last-child:after{
+	content: "";
+}
 
