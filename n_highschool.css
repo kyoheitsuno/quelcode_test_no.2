@@ -1019,9 +1019,15 @@ h2.bp_heading {
 }
 
 /*フッターのグローバルナビ*/
-.footer_navi {
+
+.global_nav {
 	width: 1060px;
 	margin: auto;
+
+}
+
+.footer_navi {
+	width: 1000px;
 	padding: 40px 10px 10px 0px;
 	display: flex;
 	flex-wrap: wrap;
@@ -1030,11 +1036,12 @@ h2.bp_heading {
 .footer_navi li{
 	display: inline;
 	list-style:none;
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: bold;
 	color: #c0c0c0;
 	padding: 20px 15px 20px 5px;
 	white-space: nowrap;
+	vertical-align: middle;
 }
 
 .footer_navi a {
@@ -1053,10 +1060,20 @@ h2.bp_heading {
 	color: black;
 }
 
-.footer_navi li:last-child:after{
+.footer_navi li:nth-of-type(n+6):after{
 	content: "";
 }
 
 .page_top {
-
+	display: block;
+	position: relative;
+	top: -25px;
+	left: 50px;
 }
+
+.page_top:hover {
+	opacity: 0.8;
+}
+
+
+
