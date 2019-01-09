@@ -958,7 +958,7 @@ h2.bp_heading {
 .more_detail {
 	text-align: center;
 	color: white;
-	font-size: 18px;
+	font-size: 20px;
 	display: block;
 	padding-top: 40px;
 	letter-spacing: 0.1em;
@@ -984,10 +984,11 @@ h2.bp_heading {
 
 .contact_links_right {
 	display: block;
-	padding: 10px 10px;
+	padding: 15px 10px;
 	list-style-type: none;
 	width: 260px;
 	height: 130px;
+	text-align: right;
 }
 
 .contact_links_right li {
@@ -996,10 +997,25 @@ h2.bp_heading {
 
 .contact_link_a {
 	padding-top: 10px;
+	text-decoration: none;
+	color: white;
 }
 
 .contact_link_a:hover {
 	opacity: 0.7;
+}
+
+
+.web_contact {
+	margin: 0 auto;
+	font-size: 13px;
+	border: 1px solid white;
+	padding: 15px 25px;
+}
+
+.web_contact:after {
+	content: '>';
+	padding-left: 15px;
 }
 
 
