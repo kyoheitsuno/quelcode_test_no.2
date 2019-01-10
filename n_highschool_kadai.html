@@ -5,9 +5,26 @@
 		<title>N高について | N高等学校(通信生高校 広域・単位制)</title>
 		<link rel="stylesheet" href="normalize.css">
 		<link rel="stylesheet" href="n_highschool.css">
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 	</head>
 	
 	<body>
+	<script>
+	$(document).ready(function() {
+	  var pagetop = $('.pagetop');
+	    $(window).scroll(function () {
+	       if ($(this).scrollTop() > 100) {
+	            pagetop.fadeIn();
+	       } else {
+	            pagetop.fadeOut();
+	            }
+	       });
+	       pagetop.click(function () {
+	           $('body, html').animate({ scrollTop: 0 }, 1000);
+	              return false;
+	   		});
+		});
+</script>
 	<!--***ヘッダーのブロック***-->
 		<header id="n_school_header">
 		<!--***ヘッダートップのナビ***-->
@@ -543,7 +560,7 @@
 					<li><a href="">編入生の方</a></li>
 					<li><a href="">保護者・教育関係者の方</a></li>
 					<li><a href="">海外在住の方</a></li>
-					<li><a href="#n_header_bottom"><img src="./image/pagetop.png" class="page_top"></li>
+					<li><a href="#n_header_bottom"><img src="./image/pagetop.png" class="pagetop"></li>
 				</ul>
 
 		<!--*** リンクのまとめ***-->

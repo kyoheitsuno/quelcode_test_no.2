@@ -1064,14 +1064,14 @@ h2.bp_heading {
 	content: "";
 }
 
-.page_top {
+.pagetop {
 	display: block;
 	position: relative;
 	top: -25px;
 	left: 50px;
 }
 
-.page_top:hover {
+.pagetop:hover {
 	opacity: 0.8;
 }
 
