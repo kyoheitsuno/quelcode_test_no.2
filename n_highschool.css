@@ -1141,6 +1141,7 @@ p.youtube_title {
 }
 
 /*フッターのSNSリンク*/
+/*左側のテキストリンク*/
 #footer_sns_links {
 	max-width: 1060px;
 	margin: 0 auto;
@@ -1156,7 +1157,8 @@ p.youtube_title {
 .footer_lastlink li {
 	display: inline-block;
 	list-style-type: none;
-	padding: 0 3px;
+	padding: 0 5px;
+	font-size: 14px;
 }
 
 .footer_lastlink li a {
@@ -1170,25 +1172,33 @@ p.youtube_title {
 
 .sns_links {
 	float: right;
-	overflow: hidden;
 	display: block;
 }
 
 .sns_links li {
 	display: table-cell;
 	height: 40px;
+	border-right: 1px solid #f2f2f2;
 	vertical-align: middle;
 	padding: 0 5px 5px 5px;
+}
+
+.sns_links li:nth-of-type(3) {
+	border-right: none;
 }
 
 .sns_links li:hover {
 	background-color: #f2f2f2;
 }
 
-.icon_a {
+.sns_links li:after {
+	content: ">";
+	padding-left: 10px;
+}
+
+.sns_links li a {
 	color: #272727;
 	text-decoration: none;
-	height: 55px;
 }
 
 .sns_text {
@@ -1200,5 +1210,4 @@ p.youtube_title {
 	float: left;
 }
 
-
-
+content: ">";
