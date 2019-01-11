@@ -926,10 +926,9 @@ h2.bp_heading {
 	font-size: 14px;
 }
 
-.youtube_title {
+p.youtube_title {
 	position: relative;
 	top: -10px;
-	text-align: center;
 	font-size: 14px;
 	color: #272727;
 }
@@ -1023,7 +1022,6 @@ h2.bp_heading {
 .global_nav {
 	width: 1060px;
 	margin: auto;
-
 }
 
 .footer_navi {
@@ -1101,6 +1099,7 @@ h2.bp_heading {
 	font-weight: bold;
 	white-space: nowrap;
 }
+
 /*リストのCSS*/
 .list_link li {
 	list-style-type: none;
@@ -1121,7 +1120,7 @@ h2.bp_heading {
 
 /*提携スクールリストのCSS*/
 .list_link_lastrow li:nth-of-type(1){
-	border-top: 1px solid gray;
+	border-top: 1px solid #c0c0c0;
 	padding-top: 20px;
 }
 
