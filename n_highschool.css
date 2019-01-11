@@ -1118,7 +1118,7 @@ p.youtube_title {
 	text-decoration: underline;
 }
 
-/*提携スクールリストのCSS*/
+/*提携スクール 入学案内からのCSS*/
 .list_link_lastrow li:nth-of-type(1){
 	border-top: 1px solid #c0c0c0;
 	padding-top: 20px;
@@ -1139,5 +1139,66 @@ p.youtube_title {
 .list_link_lastrow a:hover {
 	text-decoration: underline;
 }
+
+/*フッターのSNSリンク*/
+#footer_sns_links {
+	max-width: 1060px;
+	margin: 0 auto;
+	padding-top: 20px;
+	border-top: 1px solid #c0c0c0;
+}
+
+.footer_lastlink {
+	float: left;
+	padding-left: 0px;
+}
+
+.footer_lastlink li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 0 3px;
+}
+
+.footer_lastlink li a {
+	color: #272727;
+	text-decoration: none;
+}
+
+.footer_lastlink li a:hover {
+	text-decoration: underline;
+}
+
+.sns_links {
+	float: right;
+	overflow: hidden;
+	display: block;
+}
+
+.sns_links li {
+	display: table-cell;
+	height: 40px;
+	vertical-align: middle;
+	padding: 0 5px 5px 5px;
+}
+
+.sns_links li:hover {
+	background-color: #f2f2f2;
+}
+
+.icon_a {
+	color: #272727;
+	text-decoration: none;
+	height: 55px;
+}
+
+.sns_text {
+	float: right;
+	font-size: 12px;
+}
+
+.icon {
+	float: left;
+}
+
 
 
