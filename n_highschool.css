@@ -1092,12 +1092,22 @@ p.youtube_title {
 	color: #000066;
 }
 
+/*リストの一番上装飾*/
 .first_child {
 	font-size: 16px;
 	color: #000066;
 	text-decoration: none;
 	font-weight: bold;
 	white-space: nowrap;
+}
+
+/*リスト左の装飾*/
+#footer_l_block_first a {
+	font-size: 16px;
+	color: #000066;
+	font-weight: bold;
+	position: relative;
+	top: -10px;
 }
 
 /*リストのCSS*/
@@ -1107,6 +1117,12 @@ p.youtube_title {
 	color: #272727;
 	font-weight: 500;
 	padding: 10px 0px 5px 0px;
+}
+
+.lzst_link rt {
+	position: relative;
+	top: -10px;
+	font-size: 10px;
 }
 
 .list_link a {
@@ -1203,13 +1219,13 @@ p.youtube_title {
 	text-decoration: none;
 }
 
+.icon {
+	float: left;
+}
+
 .sns_text {
 	float: left;
 	font-size: 12px;
-}
-
-.icon {
-	float: left;
 }
 
 /*コピーライトのブロック*/
@@ -1249,5 +1265,7 @@ p.youtube_title {
 	text-align: right;
 	color: #fffffe;
 }
+
+
 
 
