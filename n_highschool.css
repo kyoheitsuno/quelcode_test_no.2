@@ -1176,7 +1176,7 @@ p.youtube_title {
 }
 
 .sns_links li {
-	display: table-cell;
+	display: inline-block;
 	height: 40px;
 	border-right: 1px solid #f2f2f2;
 	vertical-align: middle;
@@ -1193,7 +1193,9 @@ p.youtube_title {
 
 .sns_links li:after {
 	content: ">";
+	left: 40px;
 	padding-left: 10px;
+	color: gray;
 }
 
 .sns_links li a {
@@ -1202,7 +1204,7 @@ p.youtube_title {
 }
 
 .sns_text {
-	float: right;
+	float: left;
 	font-size: 12px;
 }
 
