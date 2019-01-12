@@ -1210,4 +1210,8 @@ p.youtube_title {
 	float: left;
 }
 
-content: ">";
+.copyright_block {
+	max-width: 1060px;
+	height: 50px;
+	background-color: black;
+}
