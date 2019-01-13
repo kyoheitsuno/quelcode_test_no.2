@@ -487,12 +487,14 @@ h2.subjective_action:before {
 .heading {
 	border-bottom: solid 1px black;
 	line-height: 2.5;
+	position: relative;
 }
 
 .heading:after {
 	content: '';
 	position: absolute;
-	top: 1620px;
+	top: 58px;
+	left: 0vh;
 	display: inline-block;
 	width: 300px;
 	height: 2px;
