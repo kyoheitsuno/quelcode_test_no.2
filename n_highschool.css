@@ -553,9 +553,19 @@ h2.subjective_action:before {
 	opacity: 1;
 }
 
+.nstandard_link:hover .nstandard_logo {
+	opacity: 0.6;
+}
+
+.nstandard_link:hover .read_more {
+	opacity: 0.6;
+}
+
+/*
 .nstandard_link:hover :not(.nstandard_info) :not(.nstandard_text) {
 	opacity: 0.6;
 }
+*/
 
 /*ロゴの画像*/
 .nstandard_logo {
