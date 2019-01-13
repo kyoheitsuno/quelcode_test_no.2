@@ -343,9 +343,10 @@
 
 /* N高のイメージ背景画像 */
 .about_school {
-	width: 100%;
-	height: 530px;
+	max-width: 100%;
+	height: 540px;
 	background: url("./image/nschool_image.png") no-repeat;
+	background-size: 100% 100%;
 }
 
 /*N高のタイトル字*/
@@ -538,6 +539,8 @@ h2.subjective_action:before {
 	float: right;
 	position: relative;
 	bottom: 200px;
+	max-width: 100%;
+	height: auto;
 }
 
 /*N STANDARDのリンク*/
@@ -558,6 +561,8 @@ h2.subjective_action:before {
 .nstandard_logo {
 	padding: 10px 20px 30px 30px;
 	float: left;
+	max-width: 100%;
+	height: auto;
 }
 
 a.nstandard_a {
@@ -645,6 +650,8 @@ a.nstandard_a {
 	float: right;
 	position: relative;
 	top: -225px;
+	max-width: 100%;
+	height: auto;
 }
 
 /*advanced_program*/
@@ -713,11 +720,15 @@ h2.basicprogram_heading:before {
 .image_left {
 	float: left;
 	padding-bottom: 100px;
+	max-width: 100%;
+	height: auto;
 }
 
 .image_right {
 	float: right;
 	padding-bottom: 100px;
+	max-width: 100%;
+	height: auto;
 }
 
 /*◎◎◎ （重複）テキストのブロック ◎◎◎*/
@@ -1108,9 +1119,16 @@ p.youtube_title {
 	font-weight: bold;
 	position: relative;
 	top: -10px;
+	padding: 0;
 }
 
 /*リストのCSS*/
+/*先頭のリスト*/
+li.list_link_first {
+	position: relative;
+	top: -7px;
+}
+
 .list_link li {
 	list-style-type: none;
 	font-size: 14px;
@@ -1194,7 +1212,7 @@ p.youtube_title {
 .sns_links li {
 	display: inline-block;
 	height: 40px;
-	border-right: 1px solid #f2f2f2;
+	border-right: 1px solid #c0c0c0;
 	vertical-align: middle;
 	padding: 0 5px 5px 5px;
 }
@@ -1211,7 +1229,7 @@ p.youtube_title {
 	content: ">";
 	left: 40px;
 	padding-left: 10px;
-	color: gray;
+	color: #c0c0c0;
 }
 
 .sns_links li a {
