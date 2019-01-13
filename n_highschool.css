@@ -553,6 +553,7 @@ h2.subjective_action:before {
 	opacity: 1;
 }
 
+/*画像とreadmoreだけ透明化*/
 .nstandard_link:hover .nstandard_logo {
 	opacity: 0.6;
 }
@@ -560,12 +561,6 @@ h2.subjective_action:before {
 .nstandard_link:hover .read_more {
 	opacity: 0.6;
 }
-
-/*
-.nstandard_link:hover :not(.nstandard_info) :not(.nstandard_text) {
-	opacity: 0.6;
-}
-*/
 
 /*ロゴの画像*/
 .nstandard_logo {
@@ -806,7 +801,7 @@ h2.bp_heading {
 	position: absolute;
 	left: 0px;
 	right: 0px;
-	top: 5386px;
+	top: 5400px;
 	margin: auto;
 	display: inline-block;
 	width: 200px;
@@ -825,13 +820,28 @@ h2.bp_heading {
 	border-bottom: solid 1px #e2e2e2;
 }
 
-/*◎◎◎ （重複）h2タイトル下の下線 ◎◎◎*/
-.h2_border_bottom {
-	width: 200px;
-	border-top: solid 1px black;
-	margin: 0 auto;
-	padding-bottom: 40px;
+/*ITツールを高校時代から利用の下線*/
+.ITtool_heading {
+	text-align: center;
+	padding: 60px 0 60px;
+	font-size: 32px;
+	font-weight: 400;
 }
+
+.ITtool_heading:before {
+	content: '';
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 9890px;
+	margin: auto;
+	display: inline-block;
+	width: 200px;
+	height: 1px;
+	background-color: black;
+	border-radius: 2px;
+}
+
 /*ブロック1項目の範囲指定*/
 .one_block {
 	max-width: 1060px;
@@ -846,6 +856,28 @@ h2.bp_heading {
 	height: 800px;
 }
 
+/*学校行事はネットとリアルでの下線*/
+.school_event {
+	text-align: center;
+	padding: 60px 0 60px;
+	font-size: 32px;
+	font-weight: 400;
+}
+
+.school_event:before {
+	content: '';
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 10690px;
+	margin: auto;
+	display: inline-block;
+	width: 200px;
+	height: 1px;
+	background-color: black;
+	border-radius: 2px;
+}
+
 /*グレーブロックショートバージョン*/
 #block_gray_half {
 	width: 100%;
@@ -856,6 +888,95 @@ h2.bp_heading {
 	border-bottom: solid 1px #e2e2e2;
 }
 
+/*N高起業部の下線*/
+.n_startup_heading {
+	text-align: center;
+	padding: 60px 0 60px;
+	font-size: 32px;
+	font-weight: 400;
+}
+
+.n_startup_heading:before {
+	content: '';
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 11510px;
+	margin: auto;
+	display: inline-block;
+	width: 200px;
+	height: 1px;
+	background-color: black;
+	border-radius: 2px;
+}
+
+/*部活動の下線*/
+.activity {
+	text-align: center;
+	padding: 60px 0 60px;
+	font-size: 32px;
+	font-weight: 400;
+}
+
+.activity:before {
+	content: '';
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 12320px;
+	margin: auto;
+	display: inline-block;
+	width: 200px;
+	height: 1px;
+	background-color: black;
+	border-radius: 2px;
+}
+
+/*2つの通学コースの下線*/
+.two_cource {
+	text-align: center;
+	padding: 60px 0 60px;
+	font-size: 32px;
+	font-weight: 400;
+}
+
+.two_cource:before {
+	content: '';
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 13145px;
+	margin: auto;
+	display: inline-block;
+	width: 200px;
+	height: 1px;
+	background-color: black;
+	border-radius: 2px;
+}
+
+
+/*提携スクールの下線*/
+.partnership_heading {
+	text-align: center;
+	padding: 60px 0 60px;
+	font-size: 32px;
+	font-weight: 400;
+}
+
+.partnership_heading:before {
+	content: '';
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 14640px;
+	margin: auto;
+	display: inline-block;
+	width: 200px;
+	height: 1px;
+	background-color: black;
+	border-radius: 2px;
+}
+/*四方リンク上段の設定*/
 #fourblock_link {
 	max-width: 1060px;
 	margin: 0 auto;
@@ -865,7 +986,6 @@ h2.bp_heading {
 	flex-wrap: wrap;
 }
 
-/*四方リンク上段の設定*/
 .four_link {
 	width: 450px;
 	height: 145px;
