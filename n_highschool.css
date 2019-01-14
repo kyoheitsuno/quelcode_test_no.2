@@ -13,6 +13,81 @@
 	height: 250px;
 }
 
+/*ヘッダー追従ブロック*/
+#header_fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	background: rgba(255,255,255,0.8);
+}
+
+.fixed_nav {
+	max-width: 1060px;
+	margin: 0 auto;
+	padding: 10px 5px;
+	display: flex;
+	align-items: center
+}
+
+.fixed_nav li {
+	display: block;
+	list-style: none;
+	margin-left: 10px;
+}
+
+.left_fixed {
+	margin-right: auto;
+}
+
+.fixed_info {
+	font-size: 11px;
+	color: #8d959c;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.introduce_box_fixed {
+	width: 150px;
+	height: auto;
+	padding: 10px 5px;
+	margin-left: 5px;
+    font-weight: bold;
+	border: solid 1px #1f286f;
+	text-align: center;
+	display: inline-block;
+	font-size: 15px;
+	color: #1f286f;
+}
+
+.introduce_box_fixed:hover{
+	background-color: #1f286f;
+	color:white;
+}
+
+.introduce_box_fixed a{
+	text-decoration: none;
+	color: #1f286f;
+	}
+
+.introduce_box_fixed a:hover{
+	text-decoration: none;
+	color: white;
+	}
+
+.introduce_box_fixed a:after{
+	position: relative;
+	left: 15px;
+	content: '>';
+	color: #1f286f;
+}
+
+.introduce_box_fixed a:hover:after{
+	content: '>';
+	color:white;
+}
+
 /* ヘッダートップの背景色 */
 #n_header_backcolor {
 	background:	#f7f7f7;;
@@ -1395,79 +1470,4 @@ li.list_link_first {
 .copyright small {
 	text-align: right;
 	color: #999999;
-}
-
-/*ヘッダー追従ブロック*/
-#header_fixed {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 60px;
-	background: rgba(255,255,255,0.8);
-}
-
-.fixed_nav {
-	max-width: 1060px;
-	margin: 0 auto;
-	padding: 10px 5px;
-	display: flex;
-	align-items: center
-}
-
-.fixed_nav li {
-	display: block;
-	list-style: none;
-	margin-left: 10px;
-}
-
-.left_fixed {
-	margin-right: auto;
-}
-
-.fixed_info {
-	font-size: 11px;
-	color: #8d959c;
-	text-align: left;
-	vertical-align: middle;
-}
-
-.introduce_box_fixed {
-	width: 150px;
-	height: auto;
-	padding: 10px 5px;
-	margin-left: 5px;
-    font-weight: bold;
-	border: solid 1px #1f286f;
-	text-align: center;
-	display: inline-block;
-	font-size: 15px;
-	color: #1f286f;
-}
-
-.introduce_box_fixed:hover{
-	background-color: #1f286f;
-	color:white;
-}
-
-.introduce_box_fixed a{
-	text-decoration: none;
-	color: #1f286f;
-	}
-
-.introduce_box_fixed a:hover{
-	text-decoration: none;
-	color: white;
-	}
-
-.introduce_box_fixed a:after{
-	position: relative;
-	left: 15px;
-	content: '>';
-	color: #1f286f;
-}
-
-.introduce_box_fixed a:hover:after{
-	content: '>';
-	color:white;
 }
