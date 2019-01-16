@@ -24,7 +24,30 @@
 	              return false;
 	   		});
 		});
-</script>
+
+	$(function () { 
+	  var flag = "up";
+	  $(window).on("scroll", function () {
+	    if ($(this).scrollTop() > 900) {
+	      if (flag === "up") {
+	        $("#header_fixed").stop().animate({
+          top: 0
+	        }, 500)
+	        flag = "down";
+	      }
+	    } else {
+	      if (flag === "down") {
+	        $("#header_fixed").stop().animate({
+	          top: "-56px"
+	        }, 500);
+	        flag = "up";
+	      }
+
+	    }
+	  });
+	});
+	</script>
+
 	<!--***ヘッダーのブロック***-->
 		<header id="n_school_header">
 		<!--*** ヘッダー追従ブロック***-->	
